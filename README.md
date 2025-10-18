@@ -30,7 +30,7 @@ Run using:
 ```
 
 
->[!NOTE] This assumes that your seclists is installed in the default place, /usr/share/seclists/Password/Leaked-Databases/rockyou.txt, and you leave `wordlist.sh` in the same directory as the python script. If not, please edit `CHECK_BASH` and `WORDLIST` in `passwordcheckerv5.py`.
+>[!NOTE] This assumes that your seclists is installed in the default place, `/usr/share/seclists/Password/Leaked-Databases/rockyou.txt`, and you leave `check_wordlist.sh` in the same directory as the python script. If not, please edit `CHECK_BASH` with the appropriate path for check_wordlist.sh and `WORDLIST` with the appropriate path for rockyou.txt, in `passwordcheckerv5.py`.
 
 
 
