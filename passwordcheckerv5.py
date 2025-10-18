@@ -144,7 +144,7 @@ class App:
             self.msg_q.put(("wl", ("warn", f"Wordlist: error{extra}")))
         elif found:
             extra = " (case-insensitive)" if WORDLIST_IGNORE_CASE else ""
-            self.msg_q.put(("wl", ("bad", f"Wordlist: Present{extra}.")))
+            self.msg_q.put(("wl", ("bad", f"Wordlist: Present{extra}. Very easy to crack!")))
         else:
             self.msg_q.put(("wl", ("ok","Wordlist: Not found.")))
         self.msg_q.put(("done", None))
